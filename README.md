@@ -19,6 +19,6 @@ A csv file is loaded as dataframe which is then split into X and Y, where Y is t
     * Recall Class 1: 0.8928
 
 ## Summary
-The model is fairly accuracte at 99% overall accuracy. The model seem to almost perfectly predict class '0' at 99% precision and recall but in this situation it would be best if the model perfomed better with classifying class '1'. As class '1' is determine to be 'high-risk' loans, but it precision and recall are both good at 87% and 89% respectively. 
+The model is fairly accuracte at 99% overall accuracy. The model seem to almost perfectly predict class 0 at 99% precision and recall but in this situation it would be best if the model perfomed better with classifying class 1, as class 1 is determine to be 'high-risk' loans. It precision and recall for class 1 are both good at 87% and 89% respectively 
 
-The model is defintely usable but improvement on precision and accuracy for class '1' can be made as individuals at high-risk shouldn't be allowed to make loans as it could negatively impact both the individual and the loan company. 
+Class 1 precision and recall values at 87% and 89% respectively, which means the model is defintely usable but improvement on precision and accuracy for class 1 can be made as individuals at high-risk shouldn't be allowed to make loans as it could negatively impact both the individual and the loan company. 
