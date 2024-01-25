@@ -13,10 +13,10 @@ A csv file is loaded as dataframe which is then split into X and Y, where Y is t
     * Overall accuracy: 0.9924164259182832
     ---------------------------------------
     * Precision Class 0: 0.9960462646052166
-    Recall Class 0: 0.9952827407276372
+    * Recall Class 0: 0.9952827407276372
     ---------------------------------------
     * Precision Class 1: 0.8746081504702194
-    Recall Class 1: 0.8928
+    * Recall Class 1: 0.8928
 
 ## Summary
 The model is fairly accuracte at 99% overall accuracy. The model seem to almost perfectly predict class '0' at 99% precision and recall but in this situation it would be best if the model perfomed better with classifying class '1'. As class '1' is determine to be 'high-risk' loans, but it precision and recall are both good at 87% and 89% respectively. 
